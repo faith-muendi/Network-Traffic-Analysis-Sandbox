@@ -26,16 +26,6 @@ This project demonstrates my hands-on skills in setting up a safe malware analys
 
 ---
 
-## 📊 Wireshark Network Traffic Analysis
-
-The following image shows analysis of suspicious DNS traffic by the malware:
-
-![DNS Traffic Analysis](Screenshots/dns_packet_analysis.png)
-
-- **Suspicious Domain Queried:** `example.bad-domain.biz`
-- **Protocol:** DNS
-- **Behavior Observed:** The malware attempted to resolve multiple domains with high entropy and random characters, typical for C2 communication.
-
 ---
 
 ## 🧠 Key Learnings
@@ -45,6 +35,15 @@ The following image shows analysis of suspicious DNS traffic by the malware:
 - Understood how malware uses DNS to communicate with command-and-control (C2) servers.
 
 ---
+
+## 📊 Wireshark Network Traffic Analysis
+
+The following image shows analysis of suspicious DNS traffic by the malware:
+
+
+- **Suspicious Domain Queried:** `
+- **Protocol:** DNS
+- **Behavior Observed:** The malware attempted to resolve multiple domains with high entropy and random characters, typical for C2 communication.
 
 ## 📁 screenshots
 
